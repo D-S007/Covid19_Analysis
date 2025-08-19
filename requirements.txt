@@ -5,3 +5,10 @@ scikit-learn
 seaborn
 ydata-profiling
 sqlalchemy
+
+pyarrow
+fastparquet
+
+plotly
+
+nbformat>=4.2.0
