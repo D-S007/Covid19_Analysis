@@ -65,7 +65,7 @@ A rigorous data cleaning and preprocessing pipeline was implemented to prepare t
  * Managing High Correlation:
    * A correlation heatmap was generated to visualize multicollinearity.
    * For highly correlated feature pairs (e.g., various policy indices), one feature from each pair was selected to avoid redundancy, or Principal Component Analysis (PCA) was used to create a smaller set of uncorrelated components.
-   ![correlation_heatmap](reports/figures/correlation_heatmap.png)
+![correlation_heatmap](reports/figures/correlation_heatmap.png)
 
 
  * Addressing Skewness:
@@ -76,12 +76,12 @@ EDA was conducted to uncover initial patterns and insights. Key visualizations a
  * Global Response Mapping: A choropleth map was used to visualize the StringencyIndex_Average across the globe at different time points, revealing regional differences in policy responses.
 
  * Time-Series Analysis: Line charts plotting ConfirmedCases and ConfirmedDeaths over time for various countries showed the different waves of the pandemic. Policy implementation dates were overlaid on these charts to visually inspect their potential impact.
- ![Confirmed Cases Comparison](reports/figures/confirmed_cases_comparison.png)
+![Confirmed Cases Comparison](reports/figures/confirmed_cases_comparison.png)
 
  * Policy Correlation: A heatmap of policy and index variables confirmed the high correlation between measures like school closures, workplace closures, and stay-at-home requirements.
 
  * Distribution of Indices: Histograms of the StringencyIndex_Average and GovernmentResponseIndex_Average revealed the distribution of government response intensity over the course of the pandemic.
- ![Global Stringency Over Time](reports/figures/global_stringency_over_time.png)
+![Global Stringency Over Time](reports/figures/global_stringency_over_time.png)
 
 ## Feature Engineering
 To enhance the predictive power of our models, several new features were created:
